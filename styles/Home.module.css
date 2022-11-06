@@ -1,0 +1,12 @@
+h1.title {
+  margin: 0;
+  line-height: 1.15;
+  border-bottom: 2px solid var(--body-color);
+}
+
+.container {
+  max-width: 72ch;
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -1,0 +1,59 @@
+:root {
+    --body-color: #4438ac;
+    --bg-color: #e8bfa3;
+    --sans-serif-font-family: "Cardo", serif;
+
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1em; /*16px*/
+    color: var(--body-color);
+    background-color: var(--bg-color);
+    font-family: var(--sans-serif-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--sans-serif-font-family);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    @apply pb-6;
+}
+
+p, li, a {
+    font-family: 'Azeret Mono', monospace;
+}
+
+a {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+li a:hover{
+    cursor: pointer;
+}
+
+main ul {
+    margin-left: 24px;
+}
+
+main li:before { content: '〰'; margin-left: -24px; margin-right: 10px; } 
+
+* {
+  box-sizing: border-box;
+}
+
+
